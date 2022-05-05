@@ -11,3 +11,7 @@ function monkeyCount(n) {
   }
   return array;
 }
+//3
+function positiveSum(arr) {
+  return arr.filter((x) => x > 0).reduce((x, s) => x + s, 0);
+}
