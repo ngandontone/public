@@ -11,3 +11,7 @@ function find_average(array) {
   // your code here
   return array.length > 0 ? array.reduce((x, y) => x + y) / array.length : 0;
 }
+//3
+function check(a, x) {
+  return a.includes(x) ? true : false;
+}
